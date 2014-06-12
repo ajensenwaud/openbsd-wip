@@ -1,0 +1,5 @@
+yabasic implements the most common and simple elements of the BASIC
+language. It comes with goto/gosub, various loops, user defined sub
+routines, and libraries. yabasic does monochrome line graphics
+and printing. yabasic runs under Unix and Windows, it is small
+(the interpreter is around 200KB) and free.

@@ -1,0 +1,32 @@
+@comment $OpenBSD$
+@bin bin/pure
+include/pure/
+include/pure/runtime.h
+lib/libpure.so
+lib/libpure.so.8
+@lib lib/libpure.so.${LIBpure_VERSION}
+lib/pkgconfig/
+lib/pkgconfig/pure.pc
+lib/pure/
+lib/pure/array.pure
+lib/pure/avltrees.pure
+lib/pure/dict.pure
+lib/pure/enum.pure
+lib/pure/faustui.pure
+lib/pure/getopt.pure
+lib/pure/heap.pure
+lib/pure/math.pure
+lib/pure/matrices.pure
+lib/pure/pointers.pure
+lib/pure/posix.pure
+lib/pure/prelude.pure
+lib/pure/primitives.pure
+lib/pure/pure_main.c
+lib/pure/pure_main.o
+lib/pure/quasiquote.pure
+lib/pure/records.pure
+lib/pure/regex.pure
+lib/pure/set.pure
+lib/pure/strings.pure
+lib/pure/system.pure
+@man man/man1/pure.1
