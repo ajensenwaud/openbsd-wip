@@ -1,8 +1,8 @@
 @comment $OpenBSD$
+%%SHARED%%
 @bin bin/pure
 include/pure/
 include/pure/runtime.h
-lib/libpure.so
 lib/libpure.so.8
 @lib lib/libpure.so.${LIBpure_VERSION}
 lib/pkgconfig/
